@@ -3,13 +3,10 @@
   "description": "A simple component to receive data and create a select component with list",
   "version": "0.1.0",
   "main": "index.js",
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
+  "module": "index.js",
+  "files": [
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Squal94/Khadir_Lounis_Projet_14_NpmLibV2_122022.git"
@@ -17,13 +14,18 @@
   "author": {
     "name": "Khadir Lounis"
   },
-  "devDependencies": {
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -44,5 +46,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
