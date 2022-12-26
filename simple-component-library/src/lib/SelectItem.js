@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import arrowDown from "./../Assets/img/angle-arrow-down.png";
+import arrowDown from "./angle-arrow-down.png";
 
 const SelectItem = ({ props }) => {
   const [option, setOption] = useState("");
